@@ -1,0 +1,86 @@
+.cabecalho{
+    background-color: var(--branco); /* Usando a variável CSS para a cor de fundo */
+    display: flex; /* Define o contêiner como flexível - flexivel */
+    justify-content: space-between; /* Distribui os itens com o mesmo espaço entre eles */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    position: relative; /* Define o posicionamento como relativo */
+    padding: 0 5rem; /* Adiciona padding (controla o espaço interno de um elemento.) */
+    margin: 0 4.5rem;
+}
+
+/*ESQUERDO*/
+.world{
+    display: flex;
+    align-items: center;
+    color: var(--cinza); /*Cor da fonte*/
+    margin-right: 5rem;
+}
+
+.world__img{
+    padding: 1em; 
+}
+
+.world__texto{
+    font-family: var(--font-principal); /*Fonte da variavel CSS*/
+    font-size: 18px; /*Tamanho da fonte*/
+    font-weight: 500;
+}
+
+/*CENTRO*/
+.opcao{
+    display: flex;
+    align-items: center;
+    margin-right: auto; /* Cria uma margem automática à direita */
+}
+
+.opcao__item{
+    padding: 1rem;
+}
+
+.opcao__link{
+    text-decoration: none;
+    color: var(--cinza);
+    font-family: var(--font-principal);
+}
+
+/*DIREITA*/
+.opcao__botao{
+    display: flex;
+    align-items: center;
+}
+
+.opcao__botao__entra{
+    padding: 1rem 0.5rem;
+}
+
+.entra__link{
+    text-decoration: none;
+    color: var(--cinza);
+    font-family: var(--font-principal);
+    cursor: pointer; /* Muda o cursor para uma mãozinha ao passar sobre o botão */
+    transition: background-color 0.5s ease, transform 0.5s ease; /* Transições suaves para cor de fundo e transformações */
+    display: block; /* O botão ocupa toda a largura disponível */
+    margin-bottom: 1em; /* Adiciona uma margem inferior de 1em */
+    padding: 0.5rem 1rem;
+}
+
+.cadastrar__link{
+    background-color: var(--vermelho);
+    text-decoration: none;
+    color: var(--branco);
+    font-family: var(--font-principal);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.entra__link:hover, .cadastrar__link:hover{
+    border: 2px solid var(--vermelho);
+    border-radius: 8px;
+    background-color: var(--cinza); /* Cor muda ao passar o mouse */
+    transform: scale(1.05); /* Aumenta o tamanho do botão */
+    color: var(--branco);
+}

@@ -1,0 +1,50 @@
+.vagas{
+    background-color: var(--branco);
+    text-align: left;
+
+}
+
+.vagas__titulo{
+    color: var(--preto);
+    font-family: var(--font-principal);
+    font-size: 20px;
+    margin: 4rem 25rem 1rem 25rem;
+    font-weight: 600;
+}
+
+.vagas__opcoes{
+    border: 1px solid var(--branco-secun);
+    border-radius: 16px;
+    margin: 1rem 25rem;
+    padding: 2rem;
+    cursor: pointer;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+    display: block;
+}
+
+.vagas__botao{
+    text-decoration: none;
+}
+
+.opcoes__titulo{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--preto);
+    margin-bottom: 2rem;
+    
+}
+
+.opcoes__sub{
+    display: flex;
+}
+
+.opcoes__subtitulo{
+    margin-right: 3rem;
+    color: var(--cinza);
+    font-size: 16px;
+}
+
+.vagas__opcoes:hover{
+    background-color: var(--branco-secun); /* Cor muda ao passar o mouse */
+    transform: scale(1.05); /* Aumenta o tamanho do botão */
+}

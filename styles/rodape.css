@@ -1,0 +1,52 @@
+.rodape{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding: 100px 0 90px 0;
+    background-color: var(--cinza-claro);
+}
+
+.rodape__titulo{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.rodape__texto{
+    font-size: 20px;
+    color: var(--cinza);
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.email__digitar{
+    background-color: var(--branco);
+    font-family: var(--font-primaria);
+    font-size: 16px;
+    color: var(--cinza);
+    border: 1px solid var(--branco-secun);
+    border-radius: 7px;
+    padding: 0.7rem;
+    width: 20rem;
+    margin-right: 2rem;
+}
+
+.email__botao{
+    text-decoration: none;
+    background-color: var(--vermelho);
+    color: var(--branco);
+    font-size: 16px;
+    padding: 0.6rem;
+    border-radius: 8px;
+}
+
+.texto__fim{
+    color: var(--cinza-fim);
+    font-size: 16px;
+}

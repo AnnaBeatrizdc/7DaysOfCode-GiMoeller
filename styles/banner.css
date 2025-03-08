@@ -1,0 +1,26 @@
+.banner{
+    background-color: var(--branco);
+    text-align: center;
+    margin: 7rem 23rem;
+}
+
+.banner__sobre{
+    font-family: var(--font-principal);
+    font-weight: 500;
+    margin-bottom: 2rem;
+    color: var(--vermelho);
+}
+
+.banner__titulo{
+    color: var(--preto);
+    font-family: var(--font-principal);
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.banner__texto{
+    font-family: var(--font-principal);
+    color: var(--cinza);
+    font-size: 20px;
+}

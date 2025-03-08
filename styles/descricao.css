@@ -1,0 +1,43 @@
+.descricao{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding: 100px 0 90px 0;
+}
+
+.descricao__fundo{
+    background-color: var(--rosa);
+    border-radius: 16px;
+    margin: 0 10rem;
+    padding: 5rem 16rem 4rem 16rem;
+}
+
+.descricao__titulo{
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--vermelho);
+    margin-bottom: 2rem;
+}
+
+.descricao__texto{
+    font-size: 36px;
+    color: var(--preto);
+}
+
+.desenvolvedor__img{
+    height: 56px;
+    width: 56px;
+    margin: 2rem 0 1.5rem 0;
+}
+
+.desenvolvedor__nome{
+    font-size: 16px;
+    color: var(--preto);
+    margin-bottom: 0.5rem;
+}
+
+.desenvolvedor__funcao{
+    font-size: 14px;
+    color: var(--cinza);
+}
